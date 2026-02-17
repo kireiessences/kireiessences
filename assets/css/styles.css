@@ -1,0 +1,20 @@
+/* Reset + tokens + estructura base */
+@import url("styles/reset.css");
+@import url("styles/ui-tokens.css");
+@import url("styles/base.css");
+
+/* Tipografías y utilidades */
+@import url("styles/fonts.css");
+@import url("styles/helpers.css");
+
+/* Layout general */
+@import url("styles/layout.css");
+
+/* Criticos */
+@import url("styles/shop.css");
+@import url("styles/main-navbar.css");
+
+/* Estilos globales personalizados */
+@import url("styles/custom-styles.css");
+@import url("styles/main-cta.css");
+@import url("styles/footer.css");

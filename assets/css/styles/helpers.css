@@ -1,0 +1,16 @@
+::selection {
+  background-color: var(--color-kamo-primary);
+  color: var(--color-kirei-obsidian);
+}
+
+::-moz-selection {
+  background-color: var(--color-kamo-primary);
+  color: var(--color-kirei-obsidian);
+}
+
+svg {
+  max-width: none;
+  height: auto;
+  box-sizing: border-box;
+  vertical-align: middle;
+}

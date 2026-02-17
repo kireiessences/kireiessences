@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TD62PFB6');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="icon" href="/assets/images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>Kirei Essences</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+    <!-- LINK MAIN CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/main-contacto.css">
+
+</head>
+
+<body>
+
+    <!-- ANCHOR - START NAVBAR -->
+
+    <header class="site-header" id="header-placeholder"></header>
+    <!-- NAVBAR ENDS -->
+
+
+    <!-- ANCHOR - MAIN -->
+
+    <main>
+        
+        <section class="kirei-form-section">
+    <div class="container-small">
+        <span class="h1">Queremos conocerte</span>
+
+        <div class="form-progress">
+            <div class="progress-info">
+                <span id="stepCounter">Paso 1 de 4</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+
+        <form id="formKireiB2C" class="kirei-stepper-form" novalidate>
+            <div class="form-step is-active" data-step="1">
+                <label for="userName">¿Cómo te llamas?</label>
+                <input type="text" id="userName" name="nombre" placeholder="Tu nombre completo">
+                <div class="error-msg" id="error-nombre">Por favor, ingresá tu nombre.</div>
+
+                <label for="userCity">¿De dónde sos?</label>
+                <input type="text" id="userCity" name="ciudad" placeholder="Ciudad, Provincia">
+                <div class="error-msg" id="error-ciudad">Necesitamos tu ubicación para el envío.</div>
+
+                <div class="form-navigation">
+                    <button type="button" class="btn-next">Siguiente</button>
+                </div>
+            </div>
+
+            <div class="form-step" data-step="2">
+                <label>¿Qué productos te interesan? (Podés elegir varios)</label>
+                <div class="option-grid">
+                    <label class="option-card checkbox"><input type="checkbox" name="motivo" value="Wax melts"><span>Wax melts</span></label>
+                    <label class="option-card checkbox"><input type="checkbox" name="motivo" value="Perfuminas"><span>Perfuminas</span></label>
+                    <label class="option-card checkbox"><input type="checkbox" name="motivo" value="Difusores"><span>Difusores de varilla</span></label>
+                    <label class="option-card checkbox"><input type="checkbox" name="motivo" value="Sahumerios"><span>Sahumerios</span></label>
+                    <label class="option-card checkbox"><input type="checkbox" name="motivo" value="Jabón Rostro"><span>Jabones para el rostro</span></label>
+                    <label class="option-card checkbox"><input type="checkbox" name="motivo" value="Jabón Cuerpo"><span>Jabones para el cuerpo</span></label>
+                </div>
+                <div class="error-msg" id="error-motivo">Seleccioná al menos una opción</div>
+
+                <label style="margin-top:20px">¿Es para vos o para regalar?</label>
+                <div class="option-grid-mini">
+                    <label class="option-card mini"><input type="radio" name="finalidad" value="Para mi"><span>Para mí</span></label>
+                    <label class="option-card mini"><input type="radio" name="finalidad" value="Para regalar"><span>Para regalar</span></label>
+                </div>
+
+                <div class="form-navigation">
+                    <button type="button" class="btn-prev">Volver</button>
+                    <button type="button" class="btn-next">Siguiente</button>
+                </div>
+            </div>
+
+            <div class="form-step" data-step="3">
+                <label for="userMsg">¿Algo más que nos quieras contar? (Opcional)</label>
+                <small class="field-hint">Si querés, contanos un poco más sobre vos o sobre lo que buscás.</small>
+                <textarea id="userMsg" name="mensaje" placeholder="Cada ritual empieza con una intención. Contanos la tuya."></textarea>
+
+                <div class="form-navigation">
+                    <button type="button" class="btn-prev">Volver</button>
+                    <button type="button" class="btn-next">Siguiente</button>
+                </div>
+            </div>
+
+            <div class="form-step" data-step="4">
+                <label>¿Te avisamos cuando haya lanzamientos, kits o promos?</label>
+                <div class="option-grid">
+                    <label class="option-card"><input type="radio" name="newsletter" value="Sí, acepto"><span>Sí, ¡me encantaría!</span></label>
+                    <label class="option-card"><input type="radio" name="newsletter" value="No por ahora"><span>No por ahora</span></label>
+                </div>
+                <div class="error-msg" id="error-permiso">Necesitamos que elijas una opción</div>
+
+                <div class="form-navigation">
+                    <button type="button" class="btn-prev">Volver</button>
+                    <div class="btn-send-form">
+                        <button type="submit" class="btn-submit">Enviar por WhatsApp <img src="/assets/images/icons/whatsapp-blanco.svg" style="width: 24px;
+    margin: -5px 0 0 8px;" alt=""></button>
+                    <p style="font-size: var(--font-size-small); color: var(--color-text-muted); margin-top: 10px; text-align: right;">
+        En tu dispositivo se abrirá la app
+    </p>
+                </div>
+</div>
+            </div>
+        </form>
+
+        <div id="mensajeExito" style="display: none; text-align: center; padding: 40px 0;">
+    <img src="/assets/images/kirei-essences-logo.webp" style="
+    width: 160px;
+    border-radius: 100%;
+    margin: 0 0 16px 0;
+     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+">
+
+
+    <h3>Perfecto</h3>
+    <p>Ahora la conversación sigue en <strong>WhatsApp</strong>.</p>
+    <p style="font-size: var(--font-size-small); color: var(--color-text-muted); margin-top: 10px;">
+        ¿Necesitás consultarnos por algo más?
+    </p>
+    <button onclick="location.reload()" class="btn-next" style="margin-top: 10px;">
+        Enviar otro mensaje <img src="/assets/images/icons/back-btn.svg" style="width: 24px;
+    margin: -5px 0 0 8px;" alt="">
+    </button>
+</div>
+    </div>
+</section>
+
+        <div class="spacer spacer-20"></div>
+
+    </main>
+
+    <!-- END MAIN -->
+
+    <footer id="footer-placeholder"></footer>
+
+    <div id="carritoContenedor" style="display: none;">
+        <div class="carrito-header">
+            <h2 style="display: flex; gap: 8px; align-items: flex-start;"><img src="/assets/images/icons/carrito.svg"
+                    alt="Tu Carrito" style="width:40px; height:auto; vertical-align:middle;"> Tu Carrito</h2>
+            <button id="cerrarCarrito" aria-label="Cerrar carrito">
+                <img src="/assets/images/icons/cerrar.svg" alt="Cerrar">
+            </button>
+        </div>
+        <div id="carritoItems"></div>
+        <div id="totalCarrito"></div>
+        <div id="mensajeEnvioGratis" class="mensaje-envio"></div>
+        <button id="vaciarCarritoBtn">Vaciar carrito</button>
+        <button id="finalizarCompraBtn">Finalizar Compra</button>
+    </div>
+
+    <div id="modalGracias" style="display: none;" class="modal">
+        <div class="modal-contenido">
+            <h2>¡Gracias por tu pedido! 🎉</h2>
+            <p>En breve te responderemos por WhatsApp.</p>
+            <button id="cerrarModal">Cerrar</button>
+        </div>
+    </div>
+
+    <div id="mensajeRecibido" style="display: none;" class="modal">
+        <div class="modal-contenido">
+            <h2>¡Gracias por tu mensaje! 🎉</h2>
+            <p>En breve te responderemos por WhatsApp.</p>
+            <button id="cerrarModalMensaje">Cerrar</button>
+        </div>
+    </div>
+
+    <a href="#top" class="scroll-top-btn" aria-label="Volver arriba">↑</a>
+
+    <!-- ANCHOR - START SCRIPTS -->
+
+    <script src="/assets/js/global-components.js"></script>
+    <script src="/assets/js/global-utils.js"></script>
+    <script src="/assets/js/global.js"></script>
+
+    <script type="module" src="/assets/js/navbar-menu.js"></script>
+
+    <script type="module" src="/assets/js/cart-data.js"></script>
+    <script type="module" src="/assets/js/shop-principal.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/navbar-script.js" defer></script>
+    <script src="/assets/js/main-banner.js" defer></script>
+    <script src="/assets/js/current-year.js" defer></script>
+    <script src="/assets/js/main-contact.js" defer></script>
+
+</body>
+
+</html>
